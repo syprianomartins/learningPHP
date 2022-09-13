@@ -19,6 +19,8 @@
 
     ];
     $str = "    asdfasdf     ";
+    $names = "João,Carlos,Pedro,Victor";
+    echo str_replace(",", "<br>", $names);
     ?>
     <!-- NAVBAR copiado do bootstrap -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">

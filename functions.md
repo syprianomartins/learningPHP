@@ -11,5 +11,9 @@
 - **str_contains($a, $b)** -> se string $a contém string $b
 - **str_starts_with($a, $b)** -> se string $a começa com $b
 - **str_ends_with($a, $b)** -> se string $a termina com $b
+- **substr($a, 0, 10)** -> captura uma substring de $a começando de 0 até 10
+- **explode(',', $a)** -> divide $a a partir da ',' e transforma em um array
+- **str_replace("ele", "ela", $a)** -> substitui a(s) substring "ele" por "ela" em $a
+
 
  
